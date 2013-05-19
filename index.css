@@ -1,0 +1,199 @@
+body, td, p {
+    font-family: verdana, arial, helvetica, geneva, swiss, sans-serif;
+    color: #000000;
+    font-size: 12px;
+    }
+
+a:active {text-decoration:none; color: #444444;}
+a:link {text-decoration: none; color: #5591AA;}
+a:visited {text-decoration: none; color: #5591AA;}
+a:hover {text-decoration: none; color: #444444;}
+
+a.a1:link {text-decoration: none; color: #444444;}
+a.a1:visited {text-decoration: none; color: #444444;}
+a.a1:hover {text-decoration: none; color: #999999;}
+
+
+a.a3:active {text-decoration: none; color: #444444;}
+a.a3:link {text-decoration: none; color: #5591AA;}
+a.a3:visited {text-decoration: none; color: #5591AA;}
+a.a3:hover {text-decoration: none;  color: #444444;}
+
+a.border-link:link {text-decoration: none; color: #ffffff;}
+a.border-link:visited {text-decoration: none; color: #ffffff;}
+a.border-link:hover {text-decoration: none; color: #FF5A00;}
+a.border-link:active {text-decoration: none; color: #ffffff;}
+
+a.border-link:link img{border:2px solid #FFFFFF;}
+a.border-link:visited img{border:2px solid #FFFFFF;}
+a.border-link:hover img{border:2px solid #FF5A00;}
+a.border-link:active img{border:2px solid #FFFFFF;}
+
+.title{
+    background-color:#5591AA;
+    color:ffffff;
+    font-family:verdana,arial,sans-serif;
+    font-size:large;
+    font-weight:bold;
+    line-height: 14pt;
+    padding:0px 0px 0px 10px;
+}
+
+.back{background-repeat:no-repeat;}
+
+.whitetextsmall { font-family:verdana,arial,sans-serif; font-size:12px; line-height: 12pt; color:#ffffff }
+.white_invisible{
+    color: #ffffff;
+    font-size: 0.1em;
+}
+
+.lastupdate {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #E4E4E4;}
+
+
+.h1, h1 {/*big, blue*/
+    font-size: 18px;
+    color: #5591AA;
+    font-weight: bold;
+    }
+
+.h2, h2 { /*big, grey*/
+    font-size: 16px;
+    color: #666666;
+    font-weight: none;
+    }
+
+.h3, h3 { /*bold, blue*/
+    font-size: 12px;
+    color: #5591AA;
+    font-weight: bold;
+    }
+
+.h4, h4 { /*Bold - grey */
+    font-size: 12px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.h5, h5 { /*Bold - grey */
+    font-size: 12px;
+    color: #5591AA;
+    font-weight: italic;
+}
+.ads{
+font-size:1.2em;
+}
+
+.white-on-black {
+    padding-left: 20px;
+    background-color:#000000;
+}
+
+.blue72 {
+    color: #0072ff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.white {color: #FFFFFF}
+
+.roundcont {
+    width: 550px;
+    background-color: #FFFFFF;
+}
+
+.roundcont p {
+    margin: 0 10px;
+}
+
+.roundtop { 
+    background: url(/users/06/adem/css/tr.gif) no-repeat top right; 
+}
+
+.roundbottom {
+    background: url(/users/06/adem/css/br.gif) no-repeat top right; 
+}
+
+img.corner {
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;
+}
+
+.social{
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    line-height: 10pt;
+    border:1px solid #0696EB;
+    padding:1px;
+    margin:15px 0 0 0;
+    width:600px;
+    background-color: #ffffff;
+}
+.social p {
+    padding:0;
+    margin:0;
+}
+.social p a{
+    position:absolute;
+    top:0px;
+    right:0px;
+    padding:3px 5px 0 0;
+}
+
+.social a:link {text-decoration: none; color: #0696EB;}
+.social a:visited {text-decoration: none; color: #0696EB;} /* ziyaret edilmis */
+.social a:hover {text-decoration: none; color: #FF5A00;}   /*uzerine gelince */
+.social a:active {text-decoration: none; color: #0696EB;} /*normalde gorundugu renk */
+
+.social h3{
+    padding:0 3px 0 0;
+    margin:0;
+    margin:0 5px 0 3px;
+    font-size:0.88em;
+    font-weight:normal;
+}
+.social ul{
+    text-align:center;
+    list-style:none;
+    margin:6px 0 4px 0;
+    padding:0;
+}
+.social ul li{
+    text-align:center;
+    display:inline;
+    padding:0 4px 6px 0 ;
+}
+.social ul li.delicious{
+    background:url("http://www.sccs.swarthmore.edu/users/06/adem/index_files/icons/delicious.gif") no-repeat 0 0;
+}
+.social ul li.digg{
+    background:url("http://www.sccs.swarthmore.edu/users/06/adem/index_files/icons/digg.gif") no-repeat 0 0;
+}
+.social ul li.reddit{
+    padding:0 0 0 2px;
+    background:url("http://www.sccs.swarthmore.edu/users/06/adem/index_files/icons/reddit.gif") no-repeat 0 0;
+}
+.social ul li.facebook{
+    background:url("http://www.sccs.swarthmore.edu/users/06/adem/index_files/icons/facebook.gif") no-repeat 0 0;
+}
+.social ul li.stumbleupon{
+    background:url("http://www.sccs.swarthmore.edu/users/06/adem/index_files/icons/stumbleupon.gif") no-repeat 0 0;
+}
+.social ul li a{
+    padding:0 0 0 18px;
+    margin:0 3px 0 0px;
+}
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.hr {
+    height: 5px;
+    width: 100%;
+    background-color: #E4E4E4;
+}

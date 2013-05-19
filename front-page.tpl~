@@ -1,0 +1,14 @@
+#!./bash/template.bash index.html
+
+{= TITLE =}
+A super awesome page!
+{==}
+{= SUBTITLE =}
+No, really!
+{==}
+{= CONTENT =}
+<p>This is a page that will have awesome stuff on it</p>
+<p>It will be quite amazing, if you think about it</p>
+<p>Lorem ipsum!</p>
+{==}
+{% include main-page.tpl %}
