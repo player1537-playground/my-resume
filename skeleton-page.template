@@ -1,0 +1,9 @@
+#!./bash/template.bash
+
+{= TITLE =}
+{==}
+{= SUBTITLE =}
+{==}
+{= CONTENT =}
+{==}
+{% include main-page.tpl %}

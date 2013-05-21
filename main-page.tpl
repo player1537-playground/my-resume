@@ -2,17 +2,21 @@
 # SUBTITLE=subtitle...
 # CONTENT=all of the content for this page
 # LINKS=an array of links to other pages
+# STYLE=custom styling for a certain page
 #+ LINKS=( "To display:URL" "Second display:URL" )
 
-{% LINKS=( "Home:/resume/" "Projects:/resume/projects/" ) %}
+{% LINKS=( "Overview:/resume/" "Projects:/resume/projects/" "Resume:/resume/resume/" ) %}
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
   <head>
-    <title>{{ $TITLE }}</title>
+    <title>Tanner Hobson | {{ $TITLE }}</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <style>{% cat index.css %}</style>
+    {% if [[ $STYLE != "" ]]; then %}
+    <style>{{ $STYLE }}</style>
+    {% fi %}
   </head>
   <body bgcolor="#FFFFFF">
     <table width="100%" height="100%" bordercolor="#999999"  bgcolor="#E4E4E4">
@@ -21,11 +25,9 @@
           <tr>
             <td width="80%"><br>
               <p align="center">
-		<b><font color="#000000" size="+1">{{ $TITLE }}</font></b><br/>
+		<b><font color="#000000" size="+1">Tanner Hobson</font></b><br/>
 		<b><font class="h1">{{ $SUBTITLE }}</font></b><br/>
-		<font class="h2">
-		  <a href="/" class="a1">Tanner Hobson</a>
-		</font><br/>
+		<font class="h2">{{ $TITLE }}</font><br/>
 		{% date +"%B %d, %Y" %}
 	      </p>
               <!-- separator bar -->
